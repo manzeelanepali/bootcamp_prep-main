@@ -1,1 +1,2 @@
-// YOUR CODE BELOW
+// YOUR CODE BE
+function onlyOdds() {}
