@@ -11,3 +11,15 @@ function myOr(x, y, z) {
   }
   return z;
 }
+function myAnd(x, y, z) {
+  if (!x) {
+    return x;
+  }
+  if (!y) {
+    return y;
+  }
+  if (!z) {
+    return z;
+  }
+  return z;
+}
