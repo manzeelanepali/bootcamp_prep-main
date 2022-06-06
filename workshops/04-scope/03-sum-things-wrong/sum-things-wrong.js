@@ -1,7 +1,8 @@
 let sum = 0;
 
 function sumThingsWrong(num1, num2) {
-  sum += num1;
+  let sum = 0;
+  sum += num1; //sum=sum +num1//
   sum += num2;
 
   return sum;
