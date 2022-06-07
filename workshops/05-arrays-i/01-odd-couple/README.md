@@ -1,6 +1,6 @@
 ### Odd Couple
 
-Define a function, `oddCouple`, that accepts an array of numbers as an argument.
+Define a function, `oddCouple `, that accepts an array of numbers as an argument.
 
 `oddCouple` should return a new array with the first two odd numbers from the
 original array:
