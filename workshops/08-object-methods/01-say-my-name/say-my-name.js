@@ -1,5 +1,5 @@
 // YOUR CODE BELOW
-me = {
+let me = {
   name: "kate",
   getGreeting: function () {
     // return `hi, my name is ${this.name}`;
