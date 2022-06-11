@@ -1,18 +1,21 @@
 // YOUR CODE BELOW
+// let result=oddCouple([1,2,3,4,5]) ==> returns an array[ 1,3]
+// function oddCouple(array) {
 
-function oddCouple(Array) {
-  let finalArray = [];
-  for (let i = 0; i < Array.length; i++) {
-    currentvalue = Array[i]; // to excess each element of an array
-
-    if (currentvalue % 2 === 1) {
-      // checking current value if it is odd or even & if odd run the block of code
-      finalArray.push(currentvalue); // push the current odd value to the final array
-      if (finalArray.length === 2) {
-        //if the lenght of final array is 2 break
-        break;
-      }
+function oddCouple(array) {
+  let finalValue = [];
+  debugger;
+  for (let i = 0; i < array.length; i++) {
+    let currentValue = array[i];
+    if (currentValue % 2 === 1) {
+      finalValue.push(currentValue);
+    }
+    if (finalValue.length === 2) {
+      break;
     }
   }
-  return finalArray; // returns the final array
+  return finalValue;
 }
+
+let value = oddCouple([1, 2, 3, 4, 5]);
+console.log(value);
