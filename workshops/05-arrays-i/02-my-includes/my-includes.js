@@ -1,12 +1,14 @@
 // YOUR CODE BELOW
+// myIncludes([10, 20, 30], 20); // => true
+// myIncludes(['apples', 'bananas', 'citrus'], 'pears'); // => false
 function myIncludes(array, searchValue) {
-  let currentValue = [];
-  {
-    for (let i = 0; i < array.length; i++) currentValue = array[i];
+  let result = false;
+  for (i = 0; i < array.length; i++) {
+    let currValue = array[i];
 
-    if (currentValue === searchValue) {
+    if (currValue === searchValue) {
       return true;
-    } else false;
+    }
   }
-  console.log(array());
+  return result;
 }
