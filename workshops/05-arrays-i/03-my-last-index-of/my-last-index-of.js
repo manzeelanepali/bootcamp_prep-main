@@ -1,17 +1,13 @@
-// YOUR CODE BELOW
-function myLastIndexOf(array, searchValue, startIdx = 0) {
-  let counter = 0;
-
-  for (let i = startIdx; i < array.length; i++) {
-    if (searchValue === array[i]) {
-      counter = i - startIdx;
+//
+// myLastIndexOf(["the", "girls", "bring", "the", "boys", "out"], "the", 2); // => 0 YOUR CODE BELOW
+// myLastIndexOf(["gee", "gee", "gee", "gee", "baby", "baby"], "gee"); // => 3
+function myLastIndexOf(array, searchValue, startIdx = array.length - 1) {
+  let result = -1;
+  for (let i = 0; i <= startIdx; i++) {
+    let currValue = array[i];
+    if (currValue === searchValue) {
+      result = i;
     }
   }
-  if (counter === 0) {
-    return -1;
-  } else {
-    return counter;
-  }
+  return result;
 }
-
-console.log(myLastIndexOf([0, 10, 20, 10, 0], 10, 2));
