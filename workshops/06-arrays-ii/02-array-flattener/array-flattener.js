@@ -7,11 +7,9 @@ function arrayFlattener(array) {
     currvalue = array[i];
 
     if (Array.isArray(currvalue)) {
-      for (let j = 0; j < currvalue.length; j++) {
-        finalResult.push(currvalue[j]);
-      }
+      finalResult = finalResult.concat(currvalue);
     } else {
-      finalResult.push(array[i]);
+      finalResult.push(currvalue);
     }
   }
   return finalResult;
