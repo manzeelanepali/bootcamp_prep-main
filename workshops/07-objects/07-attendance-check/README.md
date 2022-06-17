@@ -7,8 +7,7 @@ new array with only the names of the students present on the inputted day of
 the week.
 
 ```javascript
+classCheck("Monday"); // => ['Marnie', 'Shoshanna']
 
-classCheck('Monday'); // => ['Marnie', 'Shoshanna']
-
-classCheck('Wednesday'); // => ['Marnie', 'Lena']
+classCheck("Wednesday"); // => ['Marnie', 'Lena']
 ```
