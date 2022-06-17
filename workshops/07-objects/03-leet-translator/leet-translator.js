@@ -65,7 +65,7 @@ function leetTranslator(str) {
   for (let i = 0; i < letters.length; i++) {
     let currValue = letters[i];
     let leetcode = leetChars[i];
-    leetcode[currValue] = leetcode;
+    leetCodex[currValue] = leetcode;
   }
   for (let i = 0; i < str.length; i++) {
     let currletters = str[i].toLowerCase();
