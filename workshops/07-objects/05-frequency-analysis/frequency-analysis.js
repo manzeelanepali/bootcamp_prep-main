@@ -1,5 +1,6 @@
 // YOUR CODE BELOW
 function frequencyAnalysis(string) {
+  debugger;
   result = {};
 
   for (let i = 0; i < string.length; i++) {
@@ -13,3 +14,4 @@ function frequencyAnalysis(string) {
 
   return result;
 }
+frequencyAnalysis("abca"); // => {a: 2, b: 1, c: 1}
